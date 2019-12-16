@@ -1,0 +1,35 @@
+_____Data distribution_____
+Counter({2: 444, 4: 239})
+_____The models with highest accuracy_____
+_____The model_____
+[100, 'logistic', 'adam', 5.62341325190349e-07, 'constant']
+_____Accuracy Score for test data_____
+0.9765886646629454
+_____Confusion Matrix_____
+[[array([[84,  1],
+       [ 1, 51]], dtype=int64), 
+array([[84,  3],
+       [ 1, 49]], dtype=int64), 
+array([[86,  3],
+       [ 2, 46]], dtype=int64), 
+array([[93,  1],
+       [ 1, 41]], dtype=int64), 
+array([[87,  2],
+       [ 1, 46]], dtype=int64)]]
+_____Distribution of predictions_____
+[Counter({2: 85, 4: 52}), 
+Counter({2: 85, 4: 52}), 
+Counter({2: 88, 4: 49}), 
+Counter({2: 94, 4: 42}), 
+Counter({2: 88, 4: 48})]
+
+
+Precision for negativ/2 = 0.9774774775
+Precision for positiv/4 = 0.9748953975
+
+
+Hidden_nodes = (25,75,100)
+Activ_func = ("identity","logistic","tanh","relu")
+Solver = ("lbfgs","sgd","adam")
+Alpha_l2 = np.logspace(-8,-1,5)
+Learning_rate = ("constant","invscaling","adaptive")

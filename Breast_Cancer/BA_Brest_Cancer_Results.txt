@@ -1,0 +1,9 @@
+Breast cancer
+For criterion entropy
+Accuracy: 0.966305 for 100 estimators and 100 samples drawn for each estimator
+[[[86.   2.8]
+  [ 1.8 46. ]]]
+For criterion gini
+Accuracy: 0.964845 for 1000 estimators and 100 samples drawn for each estimator
+[[[86.2  2.6]
+  [ 2.2 45.6]]]

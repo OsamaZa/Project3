@@ -1,0 +1,33 @@
+_____Data distribution_____
+Counter({2: 444, 4: 239})
+_____The models with highest accuracy_____
+_____The model_____
+[2.6826957952797246, 'sigmoid', 20.0, 'auto']
+_____Accuracy Score for test data_____
+0.9766101331043366
+_____Confusion Matrix_____
+[[array([[94,  0],
+       [ 1, 42]], dtype=int64), 
+array([[93,  7],
+       [ 0, 37]], dtype=int64), 
+array([[88,  5],
+       [ 0, 44]], dtype=int64), 
+array([[84,  0],
+       [ 0, 52]], dtype=int64), 
+array([[72,  1],
+       [ 2, 61]], dtype=int64)]]
+_____Distribution of predictions_____
+[Counter({2: 95, 4: 42}), 
+Counter({2: 93, 4: 44}), 
+Counter({2: 88, 4: 49}), 
+Counter({2: 84, 4: 52}), 
+Counter({2: 74, 4: 62})]
+
+
+Precision for negativ/2 = 0.9707207207
+Precision for positiv/4 = 0.9874476987
+
+C = np.logspace(-3,5,8)
+Kernel = ("poly","rbf","sigmoid")
+Degree = np.linspace(0,20,21)
+Gamma = ("scale","auto")

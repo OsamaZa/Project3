@@ -1,0 +1,11 @@
+Breast cancer
+For criterion entropy
+Accuracy: 0.976556 for 100 estimators and 4 features considered for each split
+[[86.600000 2.200000]
+ [1.000000 46.800000]]
+Counter({2: 444, 4: 239})
+For criterion gini
+Accuracy: 0.976567 for 100 estimators and 4 features considered for each split
+[[86.800000 2.000000]
+ [1.200000 46.600000]]
+Counter({2: 444, 4: 239})
